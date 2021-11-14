@@ -11,9 +11,28 @@
     height: 90px;
     background-color: rgb(38, 2, 59);
     
+    
 }
 .navbar img{
   margin-right: 10px;
+  margin-bottom: 13px;
+  margin-top: 5px;
+}
+
+.dropdown{
+  background-color: rgb(65, 41, 90);
+  border-radius: 5px;
+  margin-right: 10px;
+
+}
+
+.btn{
+  color: rgb(245, 215, 220);
+}
+
+.dropdown:hover{
+  background-color: purple;
+
 }
 
 .navbar .brand-name{
@@ -33,4 +52,5 @@
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background: rebeccapurple url("../images/cover2.jpg");
 }

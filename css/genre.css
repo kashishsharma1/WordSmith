@@ -9,8 +9,8 @@
     height: 1500px;
     position: absolute;
     background: url("../images/genre2.jpg");
-   
-    
+    background-size: cover;
+
 }
 
 .box-container{
@@ -19,15 +19,143 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(276, 276,276 ,0.5);
+    background: rgba(0, 0,0 ,0.6);
 }
 
-.card{
-    width: 300px;
-    height: 300px;
-    background: greenyellow;
+.cards{
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   position: absolute;
+   justify-content: space-evenly;
+   padding: 50px 50px 50px 50px;
+   border-radius: 30px;
 }
 
 #fiction{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    top: 0;
+    background: red;
+} 
 
+#narrative{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    left: 300px;
+    top: -230px;
+    background: red;
+}
+
+#non-fiction{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    left: 600px;
+    top: -460px;
+    background: red;
+}
+
+#poetry{
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    position: relative;
+    left: 900px;
+    top: -690px;
+    background: red;
+}
+
+#story{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 1200px;
+    top: -915px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: red;
+}
+
+#article{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -900px;
+    left: 0;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: red;
+}
+
+#folklore{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   top: -1130px;
+   left: 300px;
+   margin-top: 30px;
+   margin-left: 30px;
+   background: red;
+}
+
+#children{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 600px;
+    top: -1355px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: red;
+
+}
+
+#novel{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 900px;
+    top: -1588px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: red;
+}
+
+#para{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -1810px;
+    left: 1200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: red;
+}
+
+#quotes{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: -1800px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background: red;
+}
+
+
+@media only screen and (max-width: 710px){
+    .cards:nth-child(*){
+        width: 100%;
+    }
+    
 }

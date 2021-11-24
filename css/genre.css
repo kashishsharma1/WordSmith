@@ -6,7 +6,7 @@
 
 .main{
     width: 100%;
-    height: 1500px;
+    height: 150vh;
     position: absolute;
     background: url("../images/genre2.jpg");
     background-size: cover;
@@ -27,6 +27,7 @@
    height: 100%;
    background: transparent;
    position: absolute;
+   margin-right: 50px;
    justify-content: space-evenly;
    padding: 50px 50px 50px 50px;
    border-radius: 30px;
@@ -35,43 +36,43 @@
 #fiction{
     width: 200px;
     height: 200px;
-    margin-top: 30px;
-    margin-left: 30px;
     position: relative;
     top: 0;
+    margin-top: 70px;
+    margin-left: 70px;
     background: red;
 } 
 
 #narrative{
     width: 200px;
     height: 200px;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 70px;
+    margin-left: 70px;
     position: relative;
-    left: 300px;
-    top: -230px;
+    left: 370px;
+    top: -270px;
     background: red;
 }
 
 #non-fiction{
     width: 200px;
     height: 200px;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 70px;
+    margin-left: 70px;
     position: relative;
-    left: 600px;
-    top: -460px;
+    left: 710px;
+    top: -540px;
     background: red;
 }
 
 #poetry{
     width: 200px;
     height: 200px;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 70px;
+    margin-left: 70px;
     position: relative;
-    left: 900px;
-    top: -690px;
+    left: 1080px;
+    top: -810px;
     background: red;
 }
 
@@ -79,10 +80,10 @@
     width: 200px;
     height: 200px;
     position: relative;
-    left: 1200px;
-    top: -915px;
-    margin-top: 30px;
-    margin-left: 30px;
+    left: 0px;
+    top: -805px;
+    margin-top: 70px;
+    margin-left: 70px;
     background: red;
 }
 
@@ -90,10 +91,10 @@
     width: 200px;
     height: 200px;
     position: relative;
-    top: -900px;
-    left: 0;
-    margin-top: 30px;
-    margin-left: 30px;
+    top: -1080px;
+    left: 370px;
+    margin-top: 70px;
+    margin-left: 70px;
     background: red;
 }
 
@@ -101,10 +102,10 @@
    width: 200px;
    height: 200px;
    position: relative;
-   top: -1130px;
-   left: 300px;
-   margin-top: 30px;
-   margin-left: 30px;
+   top: -1345px;
+   left: 710px;
+   margin-top: 70px;
+   margin-left: 70px;
    background: red;
 }
 
@@ -112,10 +113,10 @@
     width: 200px;
     height: 200px;
     position: relative;
-    left: 600px;
-    top: -1355px;
-    margin-top: 30px;
-    margin-left: 30px;
+    left: 1080px;
+    top: -1610px;
+    margin-top: 70px;
+    margin-left: 70px;
     background: red;
 
 }
@@ -124,10 +125,10 @@
     width: 200px;
     height: 200px;
     position: relative;
-    left: 900px;
-    top: -1588px;
-    margin-top: 30px;
-    margin-left: 30px;
+    left: 0;
+    top: -1600px;
+    margin-top: 70px;
+    margin-left: 70px;
     background: red;
 }
 
@@ -135,10 +136,10 @@
     width: 200px;
     height: 200px;
     position: relative;
-    top: -1810px;
-    left: 1200px;
-    margin-top: 30px;
-    margin-left: 30px;
+    top: -1875px;
+    left: 370px;
+    margin-top: 70px;
+    margin-left: 70px;
     background: red;
 }
 
@@ -146,16 +147,34 @@
     width: 200px;
     height: 200px;
     position: relative;
-    top: -1800px;
-    margin-top: 30px;
-    margin-left: 30px;
+    top: -2145px;
+    left: 710px;
+    margin-top: 70px;
+    margin-left: 70px;
     background: red;
+}
+
+.cards a{
+    text-decoration: none;
+}
+
+.cards p{
+    margin: 90px 40px 30px 40px;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+.cards a:hover{
+    background: rgb(168, 63, 14);
+    cursor: pointer;
 }
 
 
 @media only screen and (max-width: 710px){
-    .cards:nth-child(*){
-        width: 100%;
+    .cards{
+        margin-left: 100px;
+        margin-right: 100px;
+        background-position: center;
     }
     
 }

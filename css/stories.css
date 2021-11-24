@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 240vh;
+    position: absolute;
+    background: url("../images/story.jpg");
+    background-size: cover;
+
+}
+
+.box-container{
+   position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0,0 ,0.6); 
+}
+
+.cards{
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   position: absolute;
+   justify-content: space-evenly;
+   border-radius: 30px;
+   
+}
+
+#drama{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: red;
+    margin-top: 70px;
+    margin-left: 70px;
+} 
+
+#mythological{
+    width: 200px;
+    height: 200px;
+    left: 350px;
+    top: -270px;
+    position: relative;
+    margin-top: 70px;
+    margin-left: 70px;
+    background: red;
+}
+
+#historical{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 670px;
+    top: -540px;
+    background: red;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#sci-fi{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 970px;
+    top: -810px;
+    margin-top: 70px;
+    margin-left: 70px;
+    background: red;
+}
+
+#social{
+    width: 200px;
+    height: 200px;
+    position: relative;
+   left: 0;
+   top: -800px;
+   margin-top: 70px;
+    margin-left: 70px;
+    background: red;
+}
+
+#thriller{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 350px;
+    top: -1068px;
+    margin-top: 70px;
+    margin-left: 70px;
+    background: red;
+}
+
+#romance{
+   width: 200px;
+   height: 200px;
+   position: relative;
+   left: 670px;
+   top: -1338px;
+   margin-top: 70px;
+    margin-left: 70px;
+   background: red;
+}
+
+#psych{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 970px;
+    top: -1607px;
+    margin-top: 70px;
+    margin-left: 70px;
+    background: red;
+}
+
+#fantasy{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    top: -1600px;
+    margin-top: 70px;
+    margin-left: 70px;
+    background: red;
+}
+
+#adventure{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 350px;
+    top: -1873px;
+    background: red;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#comedy{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 670px;
+    top: -2138px;
+    background: red;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+#mystery{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 970px;
+    top: -2405px; 
+    background: red;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#horror{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 0x;
+    top: -2400px;
+    background: red;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#bildungsroman{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 350px;
+    top: -2670px;
+    background: red;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#magical-realism{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 670px;
+    top: -2937px;
+    background: red;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+#prose{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 970px;
+    top: -3205px;
+    margin-top: 70px;
+    margin-left: 70px;
+    background: red;
+}
+
+
+
+
+
+
+

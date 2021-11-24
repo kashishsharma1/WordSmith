@@ -28,6 +28,7 @@
    background: transparent;
    position: absolute;
    margin-right: 50px;
+   box-shadow: 0 0 25px 15px rgb(180, 86, 24);
    justify-content: space-evenly;
    padding: 50px 50px 50px 50px;
    border-radius: 30px;

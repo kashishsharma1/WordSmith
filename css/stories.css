@@ -29,7 +29,8 @@
    position: absolute;
    justify-content: space-evenly;
    border-radius: 30px;
-   
+   padding: 50px 50px 50px 50px;
+   box-shadow: 0 0 25px 15px rgb(226, 140, 41);
 }
 
 #drama{
@@ -207,6 +208,20 @@
     background: red;
 }
 
+.cards a{
+    text-decoration: none;
+}
+
+.cards p{
+    margin: 90px 40px 30px 40px;
+    font-size: 20px;
+    color: cornsilk;
+}
+
+.cards a:hover{
+    background: rgb(168, 63, 14);
+    cursor: pointer;
+}
 
 
 

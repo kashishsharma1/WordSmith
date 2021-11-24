@@ -6,7 +6,7 @@
 
 .main{
     width: 100%;
-    height: 240vh;
+    height: 170vh;
     position: absolute;
     background: url("../images/story.jpg");
     background-size: cover;
@@ -14,7 +14,7 @@
 }
 
 .box-container{
-   position: relative;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -39,7 +39,8 @@
     position: relative;
     top: 0;
     left: 0;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: top;
     margin-top: 70px;
     margin-left: 70px;
 } 
@@ -52,7 +53,8 @@
     position: relative;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: left;
 }
 
 #historical{
@@ -64,6 +66,8 @@
     background: red;
     margin-top: 70px;
     margin-left: 70px;
+    background: red url("../images/genre_template.jpg");
+    background-position: right;
 }
 
 #sci-fi{
@@ -74,7 +78,8 @@
     top: -810px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: top;
 }
 
 #social{
@@ -85,7 +90,8 @@
    top: -800px;
    margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: right;
 }
 
 #thriller{
@@ -96,7 +102,8 @@
     top: -1068px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: center;
 }
 
 #romance{
@@ -107,7 +114,8 @@
    top: -1338px;
    margin-top: 70px;
     margin-left: 70px;
-   background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: top;
 }
 
 #psych{
@@ -118,7 +126,8 @@
     top: -1607px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: left;
 }
 
 #fantasy{
@@ -129,7 +138,8 @@
     top: -1600px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: top;
 }
 
 #adventure{
@@ -138,7 +148,8 @@
     position: relative;
     left: 350px;
     top: -1873px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: left;
     margin-top: 70px;
     margin-left: 70px;
 }
@@ -149,7 +160,8 @@
     position: relative;
     left: 670px;
     top: -2138px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: center;
     margin-top: 70px;
     margin-left: 70px;
 }
@@ -159,7 +171,8 @@
     position: relative;
     left: 970px;
     top: -2405px; 
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: left;
     margin-top: 70px;
     margin-left: 70px;
 }
@@ -170,7 +183,8 @@
     position: relative;
     left: 0x;
     top: -2400px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: center;
     margin-top: 70px;
     margin-left: 70px;
 }
@@ -181,7 +195,8 @@
     position: relative;
     left: 350px;
     top: -2670px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: right;
     margin-top: 70px;
     margin-left: 70px;
 }
@@ -192,7 +207,8 @@
     position: relative;
     left: 670px;
     top: -2937px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: top;
     margin-top: 70px;
     margin-left: 70px;
 }
@@ -205,7 +221,8 @@
     top: -3205px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/genre_template.jpg");
+    background-position: left;
 }
 
 .cards a{
@@ -213,14 +230,14 @@
 }
 
 .cards p{
-    margin: 90px 40px 30px 40px;
+    margin: 90px 40px 30px 10px;
     font-size: 20px;
     color: cornsilk;
 }
 
-.cards a:hover{
-    background: rgb(168, 63, 14);
+.cards:hover{
     cursor: pointer;
+    box-shadow: 0 0 25px 15px rgb(81, 19, 94);
 }
 
 

@@ -7,9 +7,10 @@
   box-sizing: border-box;  
 }
 
-.body{
-  background: black;
+html{
+  scroll-behavior: smooth;
 }
+
 
 .navbar{
     width: 100%;
@@ -81,6 +82,7 @@
   background: rgba(0, 0, 0,0.4); 
   position: relative;
 }
+
 
 .Why-join{
   width: 100%;
@@ -228,7 +230,7 @@ footer{
 }
 
 .blue-cover p{
-  font-size: 20px;
+  font-size: 80px;
   color: azure;
   font-family: 'Passions Conflict', cursive;
   text-align: center;
@@ -381,9 +383,280 @@ footer{
   text-shadow: 3px 3px 8px rgb(0, 0, 0);
   font-size: 25px;
 }
+
 #second:hover{
   box-shadow: 0 0 25px 15px rgb(201, 10, 115);
 }
+
 #third:hover{
   box-shadow: 0 0 25px 15px rgb(230, 8, 8);
+}
+
+.con-cover {
+
+  width: 80%;
+  margin-left: 200px;
+  background: rgba(24, 9, 110, 0.5);
+  height: 80%;
+
+}
+
+.sec-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 90px 10px;
+  
+}
+
+.about {
+  width: 70%;
+}
+
+.sec-1 h2 {
+
+  font-size: 90px;
+  font-family: 'Passions Conflict', cursive;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 8px rgb(65, 241, 12);
+  margin-bottom: 30px;
+
+}
+
+.about p {
+  text-align: justify;
+  font-family: 'Passions Conflict', cursive;
+  color: rgb(224, 248, 10);
+  line-height: 38px;
+  margin-top: 10px;
+  text-shadow: 3px 3px 8px rgb(248, 248, 248);
+  font-size: 60px;
+}
+
+.sec-1 ul {
+
+  list-style: none;
+
+}
+
+.sec-1 ul li {
+
+  padding: 5px;
+
+}
+
+a {
+
+  text-decoration: none;
+
+  color: gray;
+
+}
+
+a:hover {
+
+  color: orange;
+
+}
+
+span {
+  font-size: 30px;
+  color: rgb(224, 13, 13);
+  font-family: 'Passions Conflict', cursive;
+  text-shadow: 3px 3px 8px rgb(15, 15, 15);  
+}
+
+i {
+
+  color: rgb(52, 253, 1);
+
+  font-size: 60px;
+
+  margin-right: 10px;
+
+}
+
+.sec-2 {
+
+  display: flex;
+
+  justify-content: center;
+
+  padding: 20px 10px;
+
+  align-items: center;
+
+}
+
+.sec-2 p {
+
+  color: gray;
+
+  font-size: 24px;
+
+  padding: 0;
+
+}
+
+.sec-2 a {
+
+  display: inline-block;
+
+  padding: 10px 25px;
+
+  color: white;
+
+  background-color: red;
+
+  margin-left: 10px;
+
+  border-radius: 20px;
+
+  font-size: 22px;
+
+}
+
+.sec-2 a:hover {
+
+  background-color: rgb(255, 115, 0);
+
+}
+
+.sec-3 {
+
+  display: flex;
+
+  justify-content: center;
+
+  padding: 20px 10px;
+
+}
+
+.sec-3 ul {
+
+  list-style: none;
+
+}
+
+.sec-3 ul li {
+
+  display: inline-block;
+
+  width: 60px;
+
+  height: 60px;
+
+  padding: 20px;
+
+  background: transparent;
+
+  border-radius: 50%;
+
+  margin-right: 20px;
+  box-shadow: 3px 3px 8px rgb(65, 241, 12);
+
+
+}
+
+.sec-3 ul li i {
+
+  color: white;
+
+  font-size: 24px;
+
+  line-height: 20px;
+
+  text-align: center;
+
+}
+
+.sec-3 ul li:nth-child(1):hover {
+
+  background-color: #20489e;
+
+}
+
+.sec-3 ul li:nth-child(2):hover {
+
+  background-color: #8d0a8d;
+
+}
+
+.sec-3 ul li:nth-child(3):hover {
+
+  background-color: #d82d17;
+
+}
+
+.sec-3 ul li:nth-child(4):hover {
+
+  background-color: #056294;
+
+}
+
+.sec-3 ul li:nth-child(5):hover {
+
+  background-color: #db0c5c;
+
+}
+
+
+
+.sec-4 {
+
+  display: flex;
+
+  background-color: black;
+
+  justify-content: center;
+
+  padding: 30px;
+
+}
+
+.sec-4 p {
+
+  color: grey;
+
+  position: relative;
+
+}
+
+
+
+.sec-4 p::after {
+
+  content: '';
+
+  display: block;
+
+  width: 0;
+
+  height: 2px;
+
+  background-color: yellow;
+
+  position: absolute;
+
+  right: 0;
+
+  bottom: -10px;
+
+  transition: all 0.3s;
+
+}
+
+.sec-4 p:hover::after {
+
+  width: 100%;
+
+}
+
+
+
+hr {
+
+  opacity: 0.5;
+  color: gold;
+
 }

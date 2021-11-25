@@ -13,15 +13,18 @@
 }
 
 textarea{
-    width: 50%;
+    max-width: 50%;
+    overflow-y: scroll;
     height: auto;
+    line-height: 1.5px;
     padding: 12px 20px;
     margin: 30px 30px;
     border-radius: 10px;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.5);
     color: black;
     border: 4px;
     box-shadow: 0 0 25px 15px rgb(123, 206, 67);
+    
 }
 
 input[type = submit]{

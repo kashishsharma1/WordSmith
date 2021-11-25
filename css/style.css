@@ -7,6 +7,10 @@
   box-sizing: border-box;  
 }
 
+.body{
+  background: black;
+}
+
 .navbar{
     width: 100%;
     height: 90px;
@@ -54,6 +58,7 @@
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 3px solid gold;
     background: rebeccapurple url("../images/cover.jpg");
 }
 
@@ -64,7 +69,8 @@
   background: rgb(90, 72, 100) url("../images/forest.jpg");
   position: relative;
   left: 0;
-  top: 750px;
+  top: 746px;
+
 }
 
 .blue-cover{
@@ -81,7 +87,7 @@
   height: 50vh;
   position: relative;
   left: 0;
-  top: 751px;
+  top: 746px;
   background: turquoise url("../images/extra.png");
 }
 
@@ -98,7 +104,7 @@
   background-repeat: no-repeat;
   position: relative;
   left: 0;
-  top: 750px;
+  top: 746px;
 }
 
 footer{
@@ -109,7 +115,7 @@ footer{
   padding-top: 15px;
   position: relative;
   left: 0;
-  top: 750px;
+  top: 746px;
   background-image: linear-gradient(to right,pink,rgb(201, 150, 103), rgb(184, 7, 207),rgb(5, 12, 114));
 }
 
@@ -209,7 +215,7 @@ footer{
   background: turquoise url("../images/tree.jpg");
   position: relative;
   left: 0;
-  top: 750px;
+  top: 746px;
 }
 
 .black-cover{
@@ -222,7 +228,7 @@ footer{
 }
 
 .blue-cover p{
-  font-size: 80px;
+  font-size: 20px;
   color: azure;
   font-family: 'Passions Conflict', cursive;
   text-align: center;
@@ -236,7 +242,7 @@ footer{
   justify-content: space-evenly;
   border-radius: 10px 80px 85px 20px;
   padding: 50px 50px 50px 50px;
-
+ 
 }
 
 #card1{
@@ -246,6 +252,7 @@ footer{
   position: relative;
   left: 50px;
   top: -240px;
+  
   border-left: 3px solid rgb(9, 165, 185);
   box-shadow: 0 0 25px 15px rgb(108, 145, 24);
 }
@@ -256,6 +263,7 @@ footer{
   position: relative;
   left: 1000px;
   top: -550px;
+  
   border-radius: 80px 10px 20px 85px;
   border-right: 3px solid green;
   border-right: 3px solid rgb(9, 165, 185);
@@ -268,6 +276,7 @@ footer{
   position: relative;
   left: 350px;
   top: -640px;
+  
   border-radius: 80px 85px 0px 0px;
   border-bottom: 3px solid rgb(9, 165, 185);
   box-shadow: 0 0 25px 15px rgb(108, 145, 24);
@@ -279,11 +288,20 @@ footer{
   position: relative;
   left: 700px;
   top: -930px;
+  
   border-radius: 80px 85px 0px 0px;
   border-bottom: 3px solid rgb(9, 165, 185);
   box-shadow: 0 0 25px 15px rgb(108, 145, 24);
 }
 
+#card1 p,#card2 p,#card3 p, #card4 p{
+     font-size: 40px;
+}
+
+#card1:hover,#card2:hover,#card3:hover, #card4:hover{
+  background: rgba(37, 68, 46, 0.5);
+  cursor: pointer;
+}
 
 
 .black-cover p{
@@ -303,34 +321,69 @@ footer{
   padding: 50px 50px 50px 50px;
 }
 
+.dark-cover p{
+  font-family: 'Passions Conflict', cursive;
+  font-size: 40px;
+  text-align: center;
+
+}
+
 #first{
   width: 300px;
   height: 300px;
-  background: rgba(30, 120, 161,0.5);
+  background: rgba(24, 9, 110, 0.5);
   top: 30px;
-  margin-left: 60px;
+  margin-left: 160px;
+  font-family: 'Passions Conflict', cursive;
   position: relative;
+  font-size: 25px;
+  text-shadow: 3px 3px 8px rgb(202, 214, 33);
+  color: aliceblue;
+  box-shadow: 0 0 25px 15px rgb(17, 0, 250);
+
 }
 
 #second{
   width: 300px;
   height: 300px;
-  background: rgba(30, 120, 161,0.5);
+  background: rgba(24, 9, 110, 0.5);
   margin-top: 30px;
-  margin-left: 60px;
+  margin-left: 160px;
   position: relative;
   left: 400px;
+  font-family: 'Passions Conflict', cursive;
   top: -300px;
-  
+  font-size: 25px;
+  text-shadow: 3px 3px 8px rgb(202, 214, 33);
+  color: aliceblue;
+  box-shadow: 0 0 25px 15px rgb(17, 0, 250);
+
 }
 
 #third{
   width: 300px;
   height: 300px;
-  background: rgba(30, 120, 161,0.5);
+  background: rgba(24, 9, 110, 0.5);
   margin-top: 30px;
-  margin-left: 60px;
+  margin-left: 160px;
   position: relative;
+  font-family: 'Passions Conflict', cursive;
+  text-shadow: 3px 3px 8px rgb(202, 214, 33);
   left: 800px;
   top: -630px;
+  color: aliceblue;
+  box-shadow: 0 0 25px 15px rgb(17, 0, 250);
+  font-size: 25px;
+}
+
+#first:hover{
+  box-shadow: 0 0 25px 15px rgb(233, 72, 8);
+  text-shadow: 3px 3px 8px rgb(0, 0, 0);
+  font-size: 25px;
+}
+#second:hover{
+  box-shadow: 0 0 25px 15px rgb(201, 10, 115);
+}
+#third:hover{
+  box-shadow: 0 0 25px 15px rgb(230, 8, 8);
 }

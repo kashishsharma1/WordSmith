@@ -41,7 +41,8 @@
     top: 0;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: top;
 } 
 
 #narrative{
@@ -52,7 +53,8 @@
     position: relative;
     left: 370px;
     top: -270px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: left;
 }
 
 #non-fiction{
@@ -63,7 +65,8 @@
     position: relative;
     left: 710px;
     top: -540px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: right;
 }
 
 #poetry{
@@ -74,7 +77,8 @@
     position: relative;
     left: 1080px;
     top: -810px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: center;
 }
 
 #story{
@@ -85,7 +89,8 @@
     top: -805px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: left;
 }
 
 #article{
@@ -96,7 +101,8 @@
     left: 370px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: bottom;
 }
 
 #folklore{
@@ -107,7 +113,8 @@
    left: 710px;
    margin-top: 70px;
    margin-left: 70px;
-   background: red;
+   background: red url("../images/dreamy.jpg");
+   background-position: left;
 }
 
 #children{
@@ -118,7 +125,8 @@
     top: -1610px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: top;
 
 }
 
@@ -130,7 +138,8 @@
     top: -1600px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: right;
 }
 
 #para{
@@ -141,7 +150,8 @@
     left: 370px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: left;
 }
 
 #quotes{
@@ -152,7 +162,8 @@
     left: 710px;
     margin-top: 70px;
     margin-left: 70px;
-    background: red;
+    background: red url("../images/dreamy.jpg");
+    background-position: center;
 }
 
 .cards a{
@@ -165,8 +176,8 @@
     color: cornsilk;
 }
 
-.cards a:hover{
-    background: rgb(168, 63, 14);
+.cards:hover{
+    box-shadow: 0 0 25px 15px rgb(233, 19, 169);
     cursor: pointer;
 }
 

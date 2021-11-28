@@ -144,3 +144,11 @@ span{
 #register{
     left: 480px;
 }
+
+.alert{
+    width: 240px;
+    height: 70px;
+    background-color: yellowgreen;
+    margin-left: 80px;
+    visibility: hidden;
+}

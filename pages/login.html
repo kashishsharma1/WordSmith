@@ -21,16 +21,13 @@
         
 
       <form class="inpt" id="login">
-        <input type="text" id="loginemail" class="input-field" placeholder="User Id" required>
+        <input type="text" id="loginemail" class="input-field" placeholder="Email" required>
         <input type="password" id="loginpassword" class="input-field" placeholder="Enter password" required>
-        <input type="checkbox" class="check-box"><span>Forgot Password</span>
         <button type="submit" class="submit-btn">Login</button>
       </form>
       <form class="inpt" id="register" onsubmit="signup(event)">
-        <input type="text" id="regname" class="input-field" placeholder="User Id" required>
         <input type="email" id="regemail" class="input-field" placeholder="Email Id" required>
         <input type="password"  id="regpassword" class="input-field" placeholder="Enter password" required>
-        <input type="checkbox" class="check-box"><span>Already registered</span>
         <button type="submit" class="submit-btn">Register</button>
       </form>
       
@@ -53,7 +50,7 @@
         z.style.left = "0px";
       }
     </script>
-    <script type="module">
+    <!--<script type="module">
            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
            import {  getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword  }  from "https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js";
            
@@ -115,7 +112,7 @@
                   });
             })
             
-      window.signOut = function signOut(_e) {
+      window.signOut = function signOut(e) {
         firebase.auth().signOut().then(function() {
         // Sign-out successful.
         console.log("done")
@@ -124,10 +121,11 @@
         });
       }
     
-      </script>
-      <script src="../js/fireConfig.js"></script>
+      </script>-->
+      <!--<script src="../js/fireConfig.js"></script>-->
+      
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-
+      <script src="../js/login.js"/>
 </body>
 </html>

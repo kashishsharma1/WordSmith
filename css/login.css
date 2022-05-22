@@ -116,7 +116,8 @@
     padding: 10px 30px;
     cursor: pointer;
     display: block;
-    margin: auto;
+    margin-top: 40px;
+    margin-left: 30px;
     background: linear-gradient(to right,rgb(49, 116, 192),rgb(22, 167, 192), rgb(55, 0, 255)); ;
     border: 0;
     outline: none;

@@ -54,61 +54,8 @@
            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
            import {  getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword  }  from "https://www.gstatic.com/firebasejs/9.5.0/firebase-auth.js";
            
- 
-           // TODO: Add SDKs for Firebase products that you want to use
-           
-            // https://firebase.google.com/docs/web/setup#available-libraries
-            
-            // Your web app's Firebase configuration
-            const firebaseConfig = {
-              apiKey: "AIzaSyBpmD4GCVTkkpB4ipd6IgFJweJ7oJwYrkc",
-              authDomain: "fir-wordsmith.firebaseapp.com",
-              projectId: "fir-wordsmith",
-              storageBucket: "fir-wordsmith.appspot.com",
-              messagingSenderId: "2219130361",
-              appId: "1:2219130361:web:69ca1469066d406cda5128"
-            };
-          
-            // Initialize Firebase
-            const app = initializeApp(firebaseConfig);
-            const auth = getAuth(app);
-            document.getElementById("register").addEventListener('click',function(){
-              const email = document.getElementById("regemail").value
-              const password = document.getElementById("regpassword").value
-
-              const auth = getAuth();
-              createUserWithEmailAndPassword(auth, email, password)
-                .then((userCredential) => {
-                // Signed in 
-                const user = userCredential.user;
-                // ...
-                console.log("created")
-             })
-              .catch((error) => {
-                const errorCode = error.code;
-                const errorMessage = error.message;
-                
-                console.log(errorCode + errorMessage)
-              
-              });
-            })
-
-            document.getElementById("login").addEventListener('click',function(){
-              const email1 = document.getElementById("loginemail").value
-              const password1 = document.getElementById("loginpassword").value
-              const auth = getAuth();
-              signInWithEmailAndPassword(auth, email1, password1)
-                .then((userCredential) => {
-                 // Signed in 
-                const user = userCredential.user;
-                console.log("loggedin")
-                // ...
-              })
-                .catch((error) => {
-                   const errorCode = error.code;
-                   const errorMessage = error.message;
-                   console.log(errorCode + errorMessage)
-                   
+    </script>
+      
                   });
             })
             

@@ -1,8 +1,8 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+//import { getAuth } from "firebase/auth";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
-import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { signInWithEmailAndPassword } from "firebase/auth";
 
 
 // TODO: Replace the following with your app's Firebase project configuration

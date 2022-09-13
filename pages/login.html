@@ -29,14 +29,14 @@
         <form class="inpt" id="login">
           <input
             type="text"
-            id="loginemail"
+            id="lemail"
             class="input-field"
             placeholder="Email"
             required
           />
           <input
             type="password"
-            id="loginpassword"
+            id="lpass"
             class="input-field"
             placeholder="Enter password"
             required
@@ -46,21 +46,21 @@
         <form class="inpt" id="register" onsubmit="signup(event)">
           <input
             type="text"
-            id="reguser"
+            id="user"
             class="input-field"
             placeholder="Name"
             required
           />
           <input
             type="email"
-            id="regemail"
+            id="email"
             class="input-field"
             placeholder="Email Id"
             required
           />
           <input
             type="password"
-            id="regpassword"
+            id="pass"
             class="input-field"
             placeholder="Enter password"
             required
@@ -75,7 +75,7 @@
       var x = document.getElementById("login");
       var y = document.getElementById("register");
       var z = document.getElementById("btn-one");
-
+      
       function register() {
         x.style.left = "-400px";
         y.style.left = "50px";
@@ -88,93 +88,8 @@
         z.style.left = "0px";
       }
     </script>
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
-      import {
-        getDatabase,
-        set,
-        ref,
-        update,
-      } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
-      import {
-        getAuth,
-        createUserWithEmailAndPassword,
-        onAuthStateChanged,
-        signOut,
-      } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js";
-
-      import { signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-auth.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
-
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyBurWifNKLsXSU9xi1uYC60YD3dVFeptro",
-        authDomain: "login-8855a.firebaseapp.com",
-        databaseURL: "https://login-8855a-default-rtdb.firebaseio.com",
-        projectId: "login-8855a",
-        storageBucket: "login-8855a.appspot.com",
-        messagingSenderId: "21236888841",
-        appId: "1:21236888841:web:d99d4a4777b10cce08cfd8",
-        measurementId: "G-TGV0JK660K",
-      };
-
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getDatabase(app);
-
-      const auth = getAuth();
-      signup1.addEventListener("click", (e) => {
-        var email = document.getElementById("regemail").value;
-        var pass = document.getElementById("regpassword").value;
-        var username = document.getElementById("reguser").value;
-
-        createUserWithEmailAndPassword(auth, email, pass)
-          .then((userCredential) => {
-            // Signed in
-            const user = userCredential.user;
-
-            set(ref(analytics, "users/" + user.uid), {
-              username: username,
-              email: email,
-            });
-
-            alert("user created");
-            // ...
-          })
-          .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            // ..
-            alert(errorMessage);
-          });
-      });
-      login1.addEventListener("click", (e) => {
-        var email = document.getElementById("loginemail").value;
-        var pass = document.getElementById("loginpassword").value;
-
-        const auth = getAuth();
-        signInWithEmailAndPassword(auth, email, pass)
-          .then((userCredential) => {
-            // Signed in
-            const user = userCredential.user;
-            const dt = new Date();
-            update(ref(analytics, "users/" + user.uid), {
-              last__login: dt,
-            });
-            alert("user login");
-            // ...
-          })
-          .catch((error) => {
-            const errorCode = error.code;
-            const errorMessage = error.message;
-            alert(errorMessage);
-          });
-      });
-    </script>
-
+   <script type="module" src="../loginmain.js"/>
+   <!-- <script src="../loginmain.js"></script> -->
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

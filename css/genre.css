@@ -11,6 +11,7 @@
     background: url("../images/genre2.jpg");
     background-size: cover;
 
+    
 }
 
 .box-container{
@@ -20,15 +21,15 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0,0 ,0.6);
+    overflow: hidden;
 }
 
 .cards{
    width: 100%;
-   height: 100%;
+   height: 50%;
    background: transparent;
    position: absolute;
    margin-right: 50px;
-   box-shadow: 0 0 25px 15px rgb(180, 86, 24);
    justify-content: space-evenly;
    padding: 50px 50px 50px 50px;
    border-radius: 30px;
@@ -43,6 +44,8 @@
     margin-left: 70px;
     background: red url("../images/dreamy.jpg");
     background-position: top;
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
+
 } 
 
 #narrative{
@@ -55,6 +58,8 @@
     top: -270px;
     background: red url("../images/dreamy.jpg");
     background-position: left;
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
+
 }
 
 #non-fiction{
@@ -67,6 +72,8 @@
     top: -540px;
     background: red url("../images/dreamy.jpg");
     background-position: right;
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
+
 }
 
 #poetry{
@@ -79,6 +86,7 @@
     top: -810px;
     background: red url("../images/dreamy.jpg");
     background-position: center;
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
 }
 
 #story{
@@ -91,6 +99,8 @@
     margin-left: 70px;
     background: red url("../images/dreamy.jpg");
     background-position: left;
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
+
 }
 
 #article{
@@ -102,6 +112,7 @@
     margin-top: 70px;
     margin-left: 70px;
     background: red url("../images/dreamy.jpg");
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
     background-position: bottom;
 }
 
@@ -115,6 +126,8 @@
    margin-left: 70px;
    background: red url("../images/dreamy.jpg");
    background-position: left;
+   box-shadow: 0 0 25px 15px rgb(180, 86, 24);
+
 }
 
 #children{
@@ -127,6 +140,7 @@
     margin-left: 70px;
     background: red url("../images/dreamy.jpg");
     background-position: top;
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
 
 }
 
@@ -139,6 +153,7 @@
     margin-top: 70px;
     margin-left: 70px;
     background: red url("../images/dreamy.jpg");
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
     background-position: right;
 }
 
@@ -151,6 +166,7 @@
     margin-top: 70px;
     margin-left: 70px;
     background: red url("../images/dreamy.jpg");
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
     background-position: left;
 }
 
@@ -160,6 +176,8 @@
     position: relative;
     top: -2145px;
     left: 710px;
+    box-shadow: 0 0 25px 15px rgb(180, 86, 24);
+
     margin-top: 70px;
     margin-left: 70px;
     background: red url("../images/dreamy.jpg");
@@ -168,6 +186,7 @@
 
 .cards a{
     text-decoration: none;
+
 }
 
 .cards p{
@@ -176,8 +195,7 @@
     color: cornsilk;
 }
 
-.cards:hover{
-    box-shadow: 0 0 25px 15px rgb(233, 19, 169);
+.cards :hover{
     cursor: pointer;
 }
 
@@ -189,4 +207,8 @@
         background-position: center;
     }
     
+}
+#fiction:hover,#narrative:hover,#non-fiction:hover,#poetry:hover,#story:hover,#article:hover,#folklore:hover,#narrative:hover,#children:hover,#novel:hover,#para:hover,#quotes:hover{
+    box-shadow: 0 0 25px 15px rgb(233, 19, 169);
+
 }
